@@ -75,19 +75,12 @@
 
 
 .men {
-<<<<<<< HEAD
+
     background-image: url('./Images/men.jpg');
 }
 
 .women {
     background-image: url('./Images/women.jpg');
-=======
-    background-image: url('./images/men.jpg');
-}
-
-.women {
-    background-image: url('./images/women.jpg');
->>>>>>> 370049a1d65630946336aa575e7495a079d46ac0
 }
 
 .overlay {
