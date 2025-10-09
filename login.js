@@ -11,15 +11,14 @@ form.addEventListener("submit", function(event) {
         return;
     }
 
-    // ✅ Retrieve stored credentials
+
     const storedEmail = localStorage.getItem("email");
     const storedPassword = localStorage.getItem("password");
     const storedUsername = localStorage.getItem("username");
 
-    // ✅ Validate login
     if (email === storedEmail && password === storedPassword) {
         alert(`Welcome back, ${storedUsername}!`);
-        window.location.href = "homepage.html"; // redirect after login
+        window.location.href = "homepage.html"; 
     } else {
         alert("Invalid email or password. Please try again.");
     }

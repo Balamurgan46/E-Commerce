@@ -18,11 +18,11 @@ signupForm.addEventListener("submit", function(event) {
         return;
     }
 
-    // ✅ Store user details in LocalStorage
+
     localStorage.setItem("username", username);
     localStorage.setItem("email", email);
     localStorage.setItem("password", password);
 
     alert("Signup successful! You can now log in.");
-    window.location.href = "login.html"; // redirect to login page
+    window.location.href = "login.html"; 
 });
