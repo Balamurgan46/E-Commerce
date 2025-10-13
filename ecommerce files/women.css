@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fef8f8; /* soft pastel background */
+}
+
+/* HEADER */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    height: 80px;
+    background: #fff0f5; /* light lavender */
+    box-shadow: 0 5px 15px rgba(197, 53, 53, 0.06);
+    position: fixed;  
+    top: 0;
+    left: 0;
+    width: 100%;       
+    z-index: 999;      
+}
+
+#header h1 {
+    font-family: 'Montserrat', cursive;
+    font-size: 32px;
+    font-weight: bold;
+    color: #080808;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #e75480; /* soft pink hover */
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+
+/* HERO BANNER */
+#women-banner {
+    background-color: #ffe6f0; /* pastel pink */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #333;
+    padding: 120px 20px;
+}
+
+#women-banner h1 {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+#women-banner p {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* PRODUCT SECTION */
+.product-section {
+    padding: 60px 100px;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.product-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.product-container {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;           
+    scroll-behavior: smooth;    
+    padding-bottom: 10px;
+}
+
+.product-box {
+    flex: 0 0 320px;  
+    background-color: #fff0f5; /* light pastel box */
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.product-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(231, 84, 128, 0.3); /* pinkish shadow */
+}
+
+.product-box img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.product-box h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.product-box p {
+    font-size: 18px;
+    color: #e75480; /* soft pink price */
+    margin: 10px 0;
+}
+
+.product-box button {
+    background-color: #e75480;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.product-box button:hover {
+    background-color: #b2385f;
+}
