@@ -8,7 +8,6 @@ body {
     background-color: #f9f9f9;
 }
 
-/* HEADER */
 #header {
     display: flex;
     align-items: center;
@@ -58,7 +57,6 @@ body {
     text-underline-offset: 5px;
 }
 
-/* HERO BANNER */
 #men-banner {
     background-color: #e6e6e6;
     background-size: cover;
@@ -78,7 +76,6 @@ body {
     margin-top: 10px;
 }
 
-/* PRODUCT SECTION */
 .product-section {
     padding: 60px 100px;
     background-color: #fff;
