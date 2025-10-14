@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     padding: 20px 60px;
     height: 80px;
-    background: #fff0f5; /* light lavender */
+    background: rgb(246, 246, 248);
     box-shadow: 0 5px 15px rgba(197, 53, 53, 0.06);
     position: fixed;  
     top: 0;
