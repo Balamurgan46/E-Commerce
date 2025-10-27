@@ -1,0 +1,101 @@
+#account {
+    background-color: #e6e0e0;
+    padding: 80px 20px;
+    min-height: 80vh;
+}
+
+.account-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.account-container h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.account-info {
+    background: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.account-info p {
+    font-size: 18px;
+    color: #444;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 24px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.no-purchases {
+    text-align: center;
+    color: #777;
+    font-size: 16px;
+}
+
+.purchases {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+}
+
+.purchase-item {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.purchase-item:hover {
+    transform: scale(1.03);
+}
+
+.purchase-item img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.purchase-details h4 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.purchase-details p {
+    font-size: 15px;
+    color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    color: #ff6f61;
+}

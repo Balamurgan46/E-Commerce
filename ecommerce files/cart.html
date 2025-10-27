@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | SHOPEASE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+
+    <section id="header">
+        <h1>SHOPEASE</h1>
+        <div>
+            <ul id="navbar">
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="shop.html">Shop Now</a></li>
+                <li><a href="My Account.html">My Account</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fas fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="cart-section">
+        <div class="cart-container">
+            <h2>Your Shopping Cart</h2>
+            <p id="emptyCartMsg" class="empty">Your cart is empty.</p>
+
+            <div id="cartItems" class="cart-items"></div>
+
+            <div id="cartSummary" class="cart-summary" style="display: none;">
+                <h3>Total: ₹<span id="cartTotal">0</span></h3>
+                <button id="checkoutBtn" class="btn">Checkout</button>
+                <button id="clearCartBtn" class="btn remove">Clear Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 SHOPEASE. All Rights Reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
